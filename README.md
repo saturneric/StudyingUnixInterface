@@ -11,6 +11,7 @@
   2. Debian GNU/Linux 10 \n \l
 ### 软件环境
 1. 编译环境GCC
+```
   Using built-in specs.
   COLLECT_GCC=gcc
   COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper
@@ -20,7 +21,9 @@
   Configured with: ../src/configure -v --with-pkgversion='Debian 8.3.0-6' --with-bugurl=file:///usr/share/doc/gcc-8/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-8 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
   Thread model: posix
   gcc version 8.3.0 (Debian 8.3.0-6) 
+```
 2. 已加载的内核模块
+```
     Module                  Size  Used by
   ipt_MASQUERADE         16384  1
   nf_conntrack_netlink    49152  0
@@ -128,8 +131,10 @@
   usb_common             16384  1 usbcore
   libphy                 77824  1 tg3
   button                 16384  0
+```
 ### 硬件环境
 1. CPU
+```
   processor	: 0
   vendor_id	: GenuineIntel
   cpu family	: 6
@@ -183,8 +188,10 @@
   cache_alignment	: 64
   address sizes	: 36 bits physical, 48 bits virtual
   power management:
+```  
 2. 内存信息
+```
                 total        used        free      shared  buff/cache   available
   Mem:           3871        1230        1782          33         858        2378
   Swap:          4004           0        4004
-
+```
